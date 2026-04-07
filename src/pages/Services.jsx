@@ -44,8 +44,8 @@ const Services = () => {
     },
     {
       icon: School,
-      title: "Education Fee Payments — N1Pay",
-      description: "Simplify School & College Fee Payments Through Our N1Pay System.",
+      title: "Education Fee Payments",
+      description: "Simplify School & College Fee Payments.",
       features: [
         "Automated fee reminders",
         "Instant receipt generation",
@@ -90,7 +90,7 @@ const Services = () => {
   return (
     <div className="container mx-auto px-4 md:px-8 py-20 pb-32">
       <div className="text-center mb-20 space-y-6">
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-6xl font-extrabold text-primary"
@@ -98,7 +98,7 @@ const Services = () => {
           Our <span className="text-accent">Services</span>
         </motion.h1>
         <p className="text-slate-500 max-w-3xl mx-auto text-lg">
-          We provide a seamless and secure digital payment ecosystem for all your everyday financial transactions. 
+          We provide a seamless and secure digital payment ecosystem for all your everyday financial transactions.
           Managed by Veggie Software Solutions Private Limited.
         </p>
       </div>

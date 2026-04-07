@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { HeroIllustration, PaymentIllustration, CardIllustration, BankIllustration } from '../components/Illustrations';
 import FeatureCard from '../components/FeatureCard';
+import Partners from '../components/Partners';
 import { Zap, Shield, Clock, CheckCircle } from 'lucide-react';
 
 const Home = () => {
@@ -28,7 +29,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-20 pb-20">
+    <div className="flex flex-col gap-20">
       {/* Hero Section */}
       <section className="container mx-auto px-4 md:px-8 mt-10 md:mt-20">
         <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -136,8 +137,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Partners Section */}
+      <Partners />
     </div>
   );
 };
 
 export default Home;
+

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin, Heart } from 'lucide-react';
 import logo from '../assets/logo.png';
 import textLogo from '../assets/text.png';
 
@@ -40,7 +40,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold border-l-4 border-accent pl-2">Services</h4>
             <ul className="space-y-3 text-sm text-gray-400">
               <li>Bill Payments - Bharat Connect</li>
-              <li>Education Fee Payments — N1Pay</li>
+              <li>Education Fee Payments</li>
               <li>Insurance Payments</li>
               <li>Electricity Bill Payment</li>
               <li>LPG & Water Bill Payments</li>
@@ -70,6 +70,22 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="pt-8 border-t border-primary-light text-center text-gray-500 text-xs">
           <p>© {new Date().getFullYear()} mmrrpay. All rights reserved. | Powered by Veggie Software Solutions Private Limited</p>
+        </div>
+        <div className="flex justify-center items-center gap-1">
+          Made with <Heart className="inline h-4 w-4 text-red-500 mx-1" /> by
+          <a
+            href="https://staffarc.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-orange-600 hover:underline"
+          >
+            <img
+              src="https://www.staffarc.in/images/Staffarc-logo.png"
+              alt="StaffArc logo"
+              className="h-5 w-5 object-contain"
+            />
+            StaffArc
+          </a>
         </div>
       </div>
     </footer>

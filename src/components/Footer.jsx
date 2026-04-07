@@ -17,11 +17,11 @@ const Footer = () => {
             <p className="text-gray-400 text-sm leading-relaxed">
               Fast, Secure, and Efficient Digital Payment Solutions for the modern world. Empowering your financial journey with technology.
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <a href="#" className="p-2 bg-primary-light rounded-full hover:bg-accent transition-colors duration-300"><Facebook className="w-5 h-5" /></a>
               <a href="#" className="p-2 bg-primary-light rounded-full hover:bg-accent transition-colors duration-300"><Instagram className="w-5 h-5" /></a>
               <a href="#" className="p-2 bg-primary-light rounded-full hover:bg-accent transition-colors duration-300"><Linkedin className="w-5 h-5" /></a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
